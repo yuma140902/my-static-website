@@ -19,8 +19,8 @@ head: |
 <p>ブラウザで使える小物ツール</p>
 </a>
 
-<a class="card" href="/server">
-<h2>稼働中のサービス一覧</h2>
+<a class="card" href="/services">
+<h2>サービス一覧</h2>
 </a>
 </div>
 
