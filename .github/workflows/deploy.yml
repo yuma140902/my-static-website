@@ -31,12 +31,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          submodule: recursive
+          submodules: recursive
       - name: Setup Tempura
         uses: baptiste0928/cargo-install@v1.3.0
         with:
           crate: tempura
-      - run: ls -aR
       - run: tempura build .
       - run: tempura build ./webtools
       - run: mkdir ./public/webtools
