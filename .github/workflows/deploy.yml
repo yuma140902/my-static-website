@@ -30,6 +30,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          submodule: recursive
       - name: Setup Tempura
         uses: baptiste0928/cargo-install@v1.3.0
         with:
