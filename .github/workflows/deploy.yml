@@ -35,7 +35,7 @@ jobs:
         with:
           crate: tempura
       - run: tempura build .
-      - run: tempura build webtools
+      - run: tempura build ./webtools
       - run: mkdir ./public/webtools
       - run: mv ./webtools/public/* ./public/webtools
       - name: Setup Pages
