@@ -34,7 +34,10 @@ jobs:
         uses: baptiste0928/cargo-install@v1.3.0
         with:
           crate: tempura
-      - run: tempura build
+      - run: tempura build .
+      - run: tempura build webtools
+      - run: mkdir ./public/webtools
+      - run: mv ./webtools/public/* ./public/webtools
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
