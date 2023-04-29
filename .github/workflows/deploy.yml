@@ -36,6 +36,7 @@ jobs:
         uses: baptiste0928/cargo-install@v1.3.0
         with:
           crate: tempura
+      - run: ls -a && ls webtools
       - run: tempura build .
       - run: tempura build ./webtools
       - run: mkdir ./public/webtools
