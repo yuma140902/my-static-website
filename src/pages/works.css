@@ -1,0 +1,91 @@
+:root {
+  --card-bg: var(--bg-color);
+  --shadow-color: rgba(0, 0, 0, .5);
+  --github-link-color: #555;
+}
+body.dark {
+  --card-bg: #3e3e43;
+  --shadow-color: #1e1e1e;
+  --github-link-color: #999fa5;
+}
+
+.works {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.works > .card {
+  flex-grow: 1;
+  min-width: 10px;
+}
+
+.card h3 {
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+.card {
+  margin: 0.4em;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background: var(--card-bg);
+  box-shadow: 0 1px 4px 0 var(--shadow-color);
+}
+
+.badge {
+  background: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 5px;
+  box-shadow: 
+    /*0 1px 2px 0 rgba(0, 0, 0, .5),*/
+    inset 0px -1px 2px 0px rgba(0, 0, 0, .25);
+  font-size: 12px;
+}
+
+.badge + a {
+  margin-left: 0.25em;
+  text-decoration: none;
+}
+.badge + a:link,
+.badge + a:visited {
+  color: var(--github-link-color);
+  text-decoration: none;
+}
+.badge + a:hover {
+  color: var(--link-hover-color);
+  text-decoration: none;
+}
+
+.rust { background: #dea584 }
+.opengl { background: #52829f }
+.minecraft { background: #388d41 }
+.js { background: #efd81d; color: black; }
+.socketio { background: #efd81d; color: black; }
+.kotlin { background: #a97bff }
+.android { background: #37f993; color: black; }
+.python { background: #f0e9a4; color: #244d78; }
+.csharp { background: #178600 }
+.unity { background: #fff51e; color: black; }
+.webgl { background: #940000 }
+.ts { background: #3178c6 }
+.line { background: #00b300 }
+.elm { background: #60b5cc }
+.angular { background: #bd002e }
+.winforms { background: #3178c6 }
+.opencv { background: #0101f7 }
+.java { background: #b07219 }
+.postgresql { background: #31648c }
+.wasm { background: #624de8 }

@@ -1,0 +1,55 @@
+:root {
+  --card-bg: var(--bg-color);
+  --shadow-color: rgba(0, 0, 0, .5);
+  --highlight-shadow-color: var(--primary-color);
+}
+body.dark {
+  --card-bg: #3e3e43;
+  --shadow-color: #1e1e1e;
+  --highlight-shadow-color: rgba(0, 0, 0, 0.0);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-container > .card {
+  display: block;
+  flex-grow: 1;
+  flex-basis: 45%;
+  min-width: 10px
+}
+
+.card {
+  margin: 0.4em;
+  padding: 10px;
+  border-radius: 10px;
+  background: var(--card-bg);
+  box-shadow: 0 1px 4px 0 var(--shadow-color);
+}
+
+.card:hover {
+  box-shadow: 
+    0 1px 4px 0 var(--shadow-color),
+    0 0 4px 1px var(--highlight-shadow-color);
+}
+
+a.card {
+  display: block;
+  text-decoration: none;
+}
+
+.card > h2:first-child {
+  margin-top: 0;
+}
+
+.card > h2:last-child {
+  margin-bottom: 0;
+}
+
+.card > p:last-child {
+  margin-bottom: 0;
+}
