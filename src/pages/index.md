@@ -26,6 +26,7 @@ head: |
 
 ## 更新履歴
 
+- 2023/04/29 - wwwを別サーバーへ移動
 - 2023/01/31 - Nextcloudインスタンス(非公開)を追加
 - 2023/01/31 - サーバーのスペックを強化
 - 2022/11/18 - Giteaインスタンス(<a href="https://git.yuma14.net/" target="_blank">git.yuma14.net</a>)を追加
