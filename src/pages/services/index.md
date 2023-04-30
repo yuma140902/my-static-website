@@ -6,6 +6,6 @@ title: サービス一覧
 
 - [www.yuma14.net](https://www.yuma14.net/)
   - Webサイト
-- <a href="https://git.yuma14.net/" target="_blank">git.yuma14.net</a>
+- <s>git.yuma14.net</s>
   - Giteaインスタンス
-- Nextcloudインスタンス(非公開)
+- <s>Nextcloudインスタンス(非公開)</s>
