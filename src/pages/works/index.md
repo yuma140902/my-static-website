@@ -165,7 +165,7 @@ Herokuの無料プランで動いていたがサービス終了してしまっ�
 <a href="https://github.com/yuma140902/UpToDateMod1.7.10" target="_blank">GitHub</a>
 </div>
 
-Minecraft 1.7.10のMOD
+MinecraftのMOD。祝3万ダウンロード
 
 </div>
 <div class="card">
