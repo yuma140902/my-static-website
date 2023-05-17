@@ -32,12 +32,11 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive
-      - name: Setup Tempura
-        uses: baptiste0928/cargo-install@v1.3.0
-        with:
-          crate: tempura
-      - run: tempura build .
-      - run: tempura build ./webtools
+      - run: wget https://github.com/yuma140902/tempura/releases/download/v0.2.1/tempura-x86_64-unknown-linux-musl.tar.gz
+      - run: tar xvf tempura-x86_64-unknown-linux-musl.tar.gz
+      - run: chmod +x tempura
+      - run: ./tempura build .
+      - run: ./tempura build ./webtools
       - run: mkdir ./public/webtools
       - run: mv ./webtools/public/* ./public/webtools
       - name: Setup Pages
