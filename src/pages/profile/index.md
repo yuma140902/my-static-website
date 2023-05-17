@@ -7,7 +7,7 @@ title: "About Me"
   <img src="https://avatars.githubusercontent.com/u/23431077" width="32px" height="32px" style="border-radius: 50%"/>
 </div>
 <div style="display: grid; place-items: center; overflow-wrap: break-word">
-  <span style="font-size: 32px">yuma14 (<wbr/>aka yuma<wbr/>14<wbr/>0902<wbr/>)</span>
+  <span style="font-size: 32px">yuma14</span>
 </div>
 </div>
 
