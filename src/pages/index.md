@@ -8,6 +8,9 @@ head: |
 <div class="card-container">
 <a class="card" href="/profile">
 <h2>About Me</h2>
+<div id="avater-container">
+<img src="https://avatars.githubusercontent.com/u/23431077" style="border-radius: 50%"/>
+</div>
 </a>
 
 <a class="card" href="/works">
@@ -16,11 +19,11 @@ head: |
 <div>
 <img src="./works/img/rustycraft.png" />
 <img src="./works/img/reverie.png" />
-<img src="./works/img/tempura.png" />
 <img src="./works/img/webtools.png" />
-<img src="./works/img/mcresourcepackutil.png" />
-<img src="./works/img/compare_cost.png" />
 <img src="./works/img/dotfiles.png" />
+<img src="./works/img/mcresourcepackutil.png" />
+<img src="./works/img/tempura.png" />
+<img src="./works/img/compare_cost.png" />
 </div>
 </div>
 </a>
@@ -37,6 +40,7 @@ head: |
 
 ## 更新履歴
 
+- 2023/07/12 - 画像追加
 - 2023/05/17 - 更新
 - 2023/04/30 - gitとcloudを削除
 - 2023/04/29 - wwwを別サーバーへ移動
