@@ -31,6 +31,12 @@ Rust製の3D/2Dゲームエンジン。OpenGLを使っていて、WindowsとLinu
 <a href="https://github.com/yuma140902/RustyCraft" target="_blank">GitHub</a>
 </div>
 
+<div class="hero">
+    <a href="/works/rustycraft">
+        <img src="/works/img/rustycraft.png" />
+    </a>
+</div>
+
 - [RustyCraft - yuma14](/works/rustycraft)
 
 Reverie Engineのデモとして作られたMinecraft風ゲーム(？)

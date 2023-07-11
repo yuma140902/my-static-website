@@ -41,6 +41,15 @@ body.dark {
   box-shadow: 0 1px 4px 0 var(--shadow-color);
 }
 
+.card .hero {
+  width: 100%;
+  text-align: center;
+}
+
+.card .hero img {
+  max-height: 12em;
+}
+
 .badge {
   background: red;
   color: white;
