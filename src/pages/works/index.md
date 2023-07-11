@@ -15,6 +15,11 @@ head: |
 <a href="https://github.com/yuma140902/Reverie" target="_blank"><img src="/works/img/github-mark.png" />&nbsp;GitHub</a>
 </div>
 
+<div class="hero">
+    <a href="https://github.com/yuma140902/Reverie">
+        <img src="/works/img/reverie.png" />
+    </a>
+</div>
 
 Rust製の3D/2Dゲームエンジン。OpenGLを使っていて、WindowsとLinux上で動作します。
 
@@ -51,6 +56,12 @@ Reverie Engineのデモとして作られたMinecraft風ゲーム(？)
 <a href="https://github.com/yuma140902/tempura" target="_blank"><img src="/works/img/github-mark.png" />&nbsp;GitHub</a>
 </div>
 
+<div class="hero">
+    <a href="https://github.com/yuma140902/tempura">
+        <img src="/works/img/tempura.png" />
+    </a>
+</div>
+
 Rust製の静的サイトジェネレーター。このサイトもTempuraで作られています。
 
 </div>
@@ -61,6 +72,12 @@ Rust製の静的サイトジェネレーター。このサイトもTempuraで作
 <div>
 <span class="badge js">JavaScript</span>
 <a href="https://github.com/yuma140902/webtools" target="_blank"><img src="/works/img/github-mark.png" />&nbsp;GitHub</a>
+</div>
+
+<div class="hero">
+    <a href="https://github.com/yuma140902/webtools">
+        <img src="/works/img/webtools.png" />
+    </a>
 </div>
 
 - <a href="/webtools" target="_blank">WebTools - yuma14</a>
@@ -89,6 +106,12 @@ Rust製の静的サイトジェネレーター。このサイトもTempuraで作
 <span class="badge kotlin">Kotlin</span>
 <span class="badge android">Android</span>
 <a href="https://github.com/yuma140902/CompareCost" target="_blank"><img src="/works/img/github-mark.png" />&nbsp;GitHub</a>
+</div>
+
+<div class="hero">
+    <a href="https://github.com/yuma140902/CompareCost">
+        <img src="/works/img/compare_cost.png" />
+    </a>
 </div>
 
 商品の単価を素早く計算するAndroidアプリ
@@ -126,6 +149,12 @@ dotfilesをインストールするツール
 <span class="badge csharp">C#</span>
 <span class="badge unity">Unity</span>
 <a href="https://github.com/yuma140902/AIC-Unity" target="_blank"><img src="/works/img/github-mark.png" />&nbsp;GitHub</a>
+</div>
+
+<div class="hero">
+    <a href="https://github.com/yuma140902/AIC-Unity">
+        <img src="/works/img/aic_unity.png" />
+    </a>
 </div>
 
 AIC(慶應義塾大学AI・高度プログラミングコンソーシアム)で使用した教材
@@ -208,6 +237,12 @@ Elm製の五目並べ
 <a href="https://github.com/yuma140902/ProconHelper" target="_blank"><img src="/works/img/github-mark.png" />&nbsp;GitHub</a>
 </div>
 
+<div class="hero">
+    <a href="https://github.com/yuma140902/ProconHelper">
+        <img src="https://camo.githubusercontent.com/9b659f84e66c68bbb3ffbb886338c8447eb4620b3e39c70d29663ca7987623cc/68747470733a2f2f692e696d6775722e636f6d2f54563434366e722e706e67" />
+    </a>
+</div>
+
 競プロ用のソフト。「コンパイル→stdin→stdoutの確認」のイテレーションを高速に回すことができる。
 
 <a href="https://github.com/kyuridenamida/atcoder-tools" target="_blank">AtCoder Tools</a>などの専門のツールには敵わないが、「この一問だけ普段使わない言語で解きたい」等の場合に役立つ。
@@ -224,7 +259,13 @@ Elm製の五目並べ
 <a href="https://github.com/yuma140902/MCResourcePackUtil" target="_blank"><img src="/works/img/github-mark.png" />&nbsp;GitHub</a>
 </div>
 
-マイクラのリソースパックを読み込み、すべてのテクスチャに一括でフィルターをかけるソフト。
+<div class="hero">
+    <a href="https://github.com/yuma140902/MCResourcePackUtil">
+        <img src="/works/img/mcresourcepackutil.png" />
+    </a>
+</div>
+
+Minecraftのリソースパックを読み込み、すべてのテクスチャに一括でフィルターをかけるソフト。
 
 </div>
 
@@ -249,6 +290,12 @@ Minecraftの各工業MODごとに異なる鉱石・インゴットなどのテ�
 <span class="badge csharp">C#</span>
 <span class="badge winforms">Windows Forms</span>
 <a href="https://github.com/yuma140902/ShutdownCountdown" target="_blank"><img src="/works/img/github-mark.png" />&nbsp;GitHub</a>
+</div>
+
+<div class="hero">
+    <a href="https://github.com/yuma140902/ShutdownCountdown">
+        <img src="/works/img/shutdown_countdown.png" />
+    </a>
 </div>
 
 指定した時間にPCをシャットダウンするソフト。シャットダウン前に警告表示ができる。
