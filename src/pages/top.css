@@ -53,3 +53,27 @@ a.card {
 .card > p:last-child {
   margin-bottom: 0;
 }
+
+#works-showcase {
+  height: 15em;
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+#works-showcase > div {
+  animation-name: scroll;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#works-showcase img {
+  height: 15em;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-600%);
+  }
+}

@@ -12,6 +12,17 @@ head: |
 
 <a class="card" href="/works">
 <h2>つくったもの</h2>
+<div id="works-showcase">
+<div>
+<img src="./works/img/rustycraft.png" />
+<img src="./works/img/reverie.png" />
+<img src="./works/img/tempura.png" />
+<img src="./works/img/webtools.png" />
+<img src="./works/img/mcresourcepackutil.png" />
+<img src="./works/img/compare_cost.png" />
+<img src="./works/img/dotfiles.png" />
+</div>
+</div>
 </a>
 
 <a class="card" href="/webtools">
