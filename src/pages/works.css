@@ -44,6 +44,12 @@ body.dark {
 .card .hero {
   width: 100%;
   text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.card .hero + p {
+  margin-top: 0;
 }
 
 .card .hero img {
@@ -64,19 +70,19 @@ body.dark {
   font-size: 12px;
 }
 
-.badge + a {
+.badges a {
   text-decoration: none;
 }
-.badge + a:link,
-.badge + a:visited {
+.badges a:link,
+.badges a:visited {
   color: var(--github-link-color);
   text-decoration: none;
 }
-.badge + a:hover {
+.badges a:hover {
   color: var(--link-hover-color);
   text-decoration: none;
 }
-.badge + a > img {
+.badges a > img {
   height: 1em;
 }
 
