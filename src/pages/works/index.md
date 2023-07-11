@@ -131,6 +131,23 @@ Rust製の静的サイトジェネレーター。このサイトもTempuraで作
 </div>
 <div class="card">
 
+### dotfiles
+
+<div>
+<a href="https://github.com/yuma140902/dotfiles-public" target="_blank"><img src="/works/img/github-mark.png" style="height: 1em;"/>&nbsp;GitHub</a>
+</div>
+
+<div class="hero">
+    <a href="https://github.com/yuma140902/dotfiles-public">
+        <img src="/works/img/dotfiles.png" />
+    </a>
+</div>
+
+Neovim等の設定ファイルたち
+
+</div>
+<div class="card">
+
 ### dotfiles-rs
 
 <div>
